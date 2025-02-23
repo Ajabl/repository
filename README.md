@@ -1,4 +1,23 @@
 GIT notes:
+git status
+git add main.py 
+git status
+git commit -m "Add main.py"
+git config --global user.name "Piotr Ch-k"
+git config --global user.email "acme@gmail.com"
+git commit -m "Add main.py"
+git status
+git log
+git shortlog 
+-- ZADANIE --
+1. Wykonaj git status
+2. Dodaj nowy plik do repozytorium.
+3. Wykonaj git status, a następnie wykonaj commit.
+4. Dodaj nowy plik, zmodyfikuj dodany w punktach 2-3.
+5. Ponownie wykonaj procedurę: git status -> git add -> git commit
+6. Usuń plik z punktu 2, zmodyfikuj z punktu 4, dodaj nowy plik.
+7. Ponownie wykonaj procedurę: git status -> git add -> git commit
+Pamiętaj o monitorowaniu zmian (git log i git diff)
 
  1184  git status
  1185  git add *
@@ -17,6 +36,7 @@ GIT notes:
  1198  git status
  1199  git commit -m "Add/Modify/Delete"
  1200  git log
+ 
  git branch
 git branch feature/git-commit-workflow
 git branch
